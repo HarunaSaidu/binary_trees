@@ -12,7 +12,7 @@
 
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 
-/* the binary tree they give us */
+/* basic binary tree */
 
 /**
  * struct binary_tree_s - Binary tree node
@@ -32,13 +32,13 @@ struct binary_tree_s
 
 typedef struct binary_tree_s binary_tree_t;
 
-/* binary search tree */
+/* Binary Search Tree */
 typedef struct binary_tree_s bst_t;
 
-/* AVL tree */
+/* AVL Tree */
 typedef struct binary_tree_s avl_t;
 
-/* max binary heap */
+/* Max Binary Heap */
 typedef struct binary_tree_s heap_t;
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
